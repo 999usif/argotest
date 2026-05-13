@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stinky
+  namespace: argocd
+data:
+  message: "hello from argocd!"
